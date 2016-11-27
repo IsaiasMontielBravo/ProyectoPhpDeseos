@@ -1,0 +1,73 @@
+@import "font/font.css.css"; 
+.title{
+   
+   font-size: 200%;
+   color: #2E64FE; 
+   font-family: 'lillyregular';
+   margin-top: 10px;
+   margin-right: 200px;
+   
+   
+}
+
+#area{
+    
+     margin-top: 0px;
+    
+}
+
+.uno{
+    
+    background: #04B404;
+    color: white;
+    font-size:1.25em;
+    margin: 20px;
+    padding:10px 0px;
+    text-align:center;
+    width: 150px;
+    font-family: 'lillyregular';
+    box-shadow:0px 3px 0px #088A08;
+    border: 0; 
+    margin-top: 35px;
+}
+
+.uno:hover{
+    
+    background:#088A08; 
+    box-shadow:0px 3px 0px #0B610B ;
+    
+}
+
+#area{
+    font-family: 'lillyregular';
+}
+
+a{ 
+    text-decoration: none; 
+    float: left;
+}
+p{       
+       color: #2E64FE;
+        font-family: 'lillyregular';
+        margin-right: 200px;
+}
+
+#jinx{
+    
+    margin-bottom: 10px;
+     font-family: 'lillyregular';   
+}
+
+#jax{
+    
+    margin-bottom: 50px;
+    
+    
+    
+}
+
+table{
+    
+    margin-right: 200px;
+    
+}

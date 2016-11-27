@@ -1,0 +1,83 @@
+
+@import "font/font.css.css"; 
+
+
+.title{
+   
+   font-size: 200%;
+   color: white; 
+   font-family: 'lillyregular';
+   margin-top: 10px;
+   
+    
+}
+
+#area{
+    
+     margin-top: 0px;
+    
+}
+
+.uno{
+    
+    background: #FF0000;
+    color: white;
+    font-size:1.25em;
+    margin: 20px;
+    padding:10px 0px;
+    text-align:center;
+    width: 180px;
+    font-family: 'lillyregular';
+    box-shadow:0px 3px 0px #610B0B;
+    border: 0; 
+}
+
+.uno:hover{
+    
+    background:#610B0B; 
+    box-shadow:0px 3px 0px #2A0A0A ;
+    
+}
+
+#area{
+    
+  
+    font-family: 'lillyregular';
+    
+    
+}
+
+a{
+    
+    text-decoration: none; 
+    float: left;
+}
+p{
+        
+       color: white;
+        font-family: 'lillyregular';
+}
+
+
+
+#jax{
+    
+    margin-bottom: 15px;
+    
+     font-family: 'lillyregular';
+}
+
+.delete{
+    
+        background : #2E2E2E; 
+	width: 400px ; 
+	height: 250px ; 
+	box-shadow : 3px 3px 3px #000 ; 
+	margin : 30px ; 
+	padding : 30px ; 
+	border-radius: 3px ; 
+	border-left: 1px solid black ; 
+	border-top: 1px solid black ; 
+    
+    
+}

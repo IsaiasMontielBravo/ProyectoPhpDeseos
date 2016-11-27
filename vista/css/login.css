@@ -1,0 +1,91 @@
+
+body{ 
+    color: #333;
+    background: 
+}
+
+/*Accedemos a toda la clase login*/
+.login{
+        width: 300px; /* Damos el Ancho de la clase login*/      
+}
+
+/*Accedemos al fieldset dentro de la clase login*/
+.login fieldset{
+    border: 1px solid silver; /*Hacemos que los bordes sean mas delgados para el fieldset*/
+}
+
+/*Accedemos a todos los input dentro de la clase login*/
+
+.login input,
+.login button { 
+        font-family: 'lillyregular';
+        
+}
+
+/*Accedemos a los input que tengan el tipo text y tipo password*/
+
+.login input[type = text],
+.login input[type = password]{
+    text-align: center;/*Centra el texto*/
+    padding: .5em .6em ;/* Modificamos o alteramos el Tamaño  de la caja de texto*/
+    border: 1px solid #ccc; /*borde de un pixel sera  solido y gris más clarito aun*/
+    box-shadow: inset 0 1px 3px #ddd;/*Sombra casi no se nota pero puedes verla bien con el codigo de color #000*/
+    border-radius: 4px;  /*Con esto los bordes seran un poco redondeados y no cuadrados <.< */
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+/*Accedemos a los input que tengan el tipo submit y tipo reset*/
+
+.login input[type = submit],
+.login input[type = reset],
+.login button /*Agregamos a nuestro boton un estilo*/{
+        background-color: #4d4d4d; 
+        color : #fff; 
+        padding : .5em 1em ; 
+        border: 0; 
+        border-radius: 4px; 
+        cursor: pointer ; 
+}
+
+/*Accedemos a los input que tengan el tipo submit y tipo reset pero con el efecto Hover le decimos que cuando el mouse este
+encima del boton submit y reset*/
+
+.login input[type = submit]:hover,
+.login input[type = reset]:hover,
+.login button:hover {
+    
+   background-image : linear-gradient(transparent, rgba(0,0,0,0.05) 40%, rgba(0,0,0,0.1));
+   
+}
+
+
+
+a{
+    color:  #4d4d4d; 
+    text-decoration: none; 
+}
+
+#mensaje {
+    margin-left:50px;
+}
+
+p > td {
+    color:red;
+}
+
+
+
+p {
+    color:red;
+}
+
+.pass {
+     text-align: center;
+    padding: .5em .6em ;
+    border: 1px solid #ccc; 
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px; 
+    margin-left: 50px !important;
+    margin-bottom: 15px;
+}
